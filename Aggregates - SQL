@@ -1,0 +1,26 @@
+Aggregates include commands such as DISTINCT, COUNT, SUM, GROUP BY, HAVING, and ORDER BY. Try using these commands on the following questions!
+
+1. Use DISTINCT to list the continents in the countries table - each continent should appear only once.
+SELECT DISTINCT continent
+FROM countries
+
+2. Use COUNT to see how many countries are in Europe.
+SELECT COUNT(DISTINCT country)
+FROM countries
+WHERE continent IN (‘Europe’)
+
+3. Use GROUP BY to count how many countries are in each continent, with continents alphabetically ordered.
+SELECT country, continent, COUNT(country) AS country_in_each_continent
+FROM countries
+GROUP BY continent, country
+ORDER BY continent, country
+
+4. Use HAVING to determine which continents are represented at least twice in the countries table.
+SELECT country, continent, COUNT(continent) AS repeated_continents   
+FROM countries  
+GROUP BY country, continent 
+HAVING repeated_continents   >= 2
+ORDER BY country, continent
+
+
+
