@@ -1,0 +1,29 @@
+1. Use JOIN to display the capital, the country, and the flag name.
+
+SELECT flags.name, countries.continent, countries.capital
+FROM flags
+JOIN countries
+ON flags.country=countries.country
+
+
+2. Use JOIN and WHERE to display the continents associated to the flags in the flags table when the flag
+has a name (i.e. not ‘NA’).
+
+SELECT flags.name, countries.continent, countries.capital
+FROM flags
+LEFT JOIN countries
+ON flags.country=countries.country
+WHERE flags.name != NULL
+
+
+3. Use JOIN and HAVING to display continents that have at least 2 countries represented as well as the
+average adoption date of the flag (as avg_date).
+
+SELECT countries.country, countries.continent, COUNT(countries.continent) AS repeated_continents, AVG(flags.adoption_date) AS average_date
+FROM countries  
+JOIN flags
+ON flags.country=countries.country
+GROUP BY countries.country, countries.continent
+HAVING repeated_continents   >= 2
+
+
