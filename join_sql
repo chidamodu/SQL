@@ -1,19 +1,19 @@
 #game
 #The table 'game' has the following columns:
-#id			mdate		stadium	  					team1	team2
-#1001	8  June 2012	National Stadium, Warsaw	POL		GRE
+#id			  mdate		          stadium	  				team1	  team2
+#1001	8  June 2012	National Stadium, Warsaw	POL		  GRE
 
 
 #goal
 #The table 'goal' has the following columns:
-#matchid	teamid	player					gtime
-#1001	POL		Robert Lewandowski		17
+#matchid	teamid	    player					  gtime
+#1001	      POL		Robert Lewandowski		  17
 
 
 #eteam
 #The table 'eteam' has the following columns:
-#id	teamname				coach
-#POL	Poland	 			Franciszek Smuda
+#id	    teamname				  coach
+#POL	    Poland	 			Franciszek Smuda
 
 
 #List the the dates of the matches and the name of the team in which 'Fernando Santos' was the team1 coach
