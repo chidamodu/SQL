@@ -1,0 +1,11 @@
+Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCODE for Japan is JPN.
+
+Input Format
+CITY
+
+Field         Type
+ID            Number
+Name          VARCHAR2(17)
+CountryCode   VARCHAR2(3)
+District      VARCHAR2(20)
+Population    Number
