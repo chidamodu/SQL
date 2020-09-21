@@ -1,0 +1,12 @@
+Query the difference between the maximum and minimum populations in CITY.
+
+Input Format
+
+CITY
+
+Field         Type
+ID            Number
+Name          VARCHAR2(17)
+CountryCode   VARCHAR2(3)
+District      VARCHAR2(20)
+Population    Number
