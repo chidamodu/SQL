@@ -1,0 +1,26 @@
+Given the following tables and find max salary
+
+Emp_id	Emp_First_name	Emp_Last_Name	      Dept_id	    Date_of_joining	      Salary
+12345	Aniket	              Kumar	          123	        1/1/2019	            10000
+23456	Durganath	          Gijupalli	        234	        2/1/2020	            20000
+34567	Pavan	              Ravuri	          345	        3/1/2020	            30000
+45678	Srinivas	          Maddamsetty	      456	        4/1/2020	            35000
+56789	Sunil	              surapaneni	      123	        5/1/2018	            40000
+67890	Srikanth	          mandava	          678	        6/1/2020	            45000
+78901	Mallikarjun	        Mavaluru	        789	        7/1/2020	            50000
+89012	Chandra	            Nakka	            456	        8/1/2020	            55000
+90123	Kalyan	            Bhavanasi	        901	        9/1/2020	            60000
+					
+					        
+Dept_Id	Dept_name				
+123	  Chemistry				
+234	Physics				
+345	Mathematics				
+456	English				
+567	Computers & science				
+678	Economics				
+789	Legal				
+890	Science				
+901	Spanish				
+124	Latin				
+ 
